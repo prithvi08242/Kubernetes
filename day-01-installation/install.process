@@ -47,7 +47,7 @@ You can follow same procedure in the official  AWS document [Getting started wit
    example:
    eksctl create cluster --name k8s \
       --region us-east-1 \
-   --node-type t2.small \
+   --node-type t2.micro \
 
  ```sh
    eksctl create cluster --name k8s  \
